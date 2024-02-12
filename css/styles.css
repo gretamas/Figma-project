@@ -1,0 +1,218 @@
+body {
+  background-color: #f5f2eb;
+}
+
+.main-nav {
+  width: 1440px;
+  height: 80px;
+  padding: 20px 70px 20px 70px;
+}
+
+.main-nav {
+  list-style: none;
+  text-align: right;
+}
+
+.main-nav li {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+}
+
+.request-demo button {
+  background-color: #aed6b3;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid black;
+  font-size: 16px;
+  padding: 12px 12px 12px 18px;
+  width: 183px;
+  height: 43px;
+}
+
+.sign-up button {
+  width: 98px;
+  padding-left: 12px;
+  font-size: 16px;
+}
+
+.globe i {
+  width: 24px;
+  height: 24px;
+}
+
+.sign-up button,
+.globe button {
+  background-color: #f5f2eb;
+  color: black;
+  border-radius: 40px;
+  border: none;
+  padding: 12px 18px;
+}
+
+#sign-in-form {
+  background-color: white;
+  width: 480px;
+  height: 648px;
+  padding-top: 58px;
+  border-radius: 30px;
+  margin-left: 180px;
+  margin-bottom: 188px;
+  margin-top: 108px;
+}
+
+.sign-block {
+  width: 334px;
+  height: 114px;
+  padding-left: 73px;
+  padding-top: 58px;
+}
+
+h1 {
+  color: black;
+  width: 136px;
+  height: 48px;
+  font-size: 40px;
+  padding-left: 99px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  text-align: center;
+  opacity: 20%;
+  letter-spacing: 0.5px;
+}
+
+input {
+  width: 376px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #5d5d5d;
+}
+
+.input-block input::placeholder {
+  padding: 16px 30px 16px 24px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}
+
+label + input {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.input-block {
+  padding-left: 52px;
+}
+
+.after {
+  width: 576px;
+  height: 19px;
+  padding: 4px 8px 0px 8px;
+  text-align: left;
+  margin-bottom: 32px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+
+.after a {
+  color: black;
+  text-decoration: none;
+  opacity: 40%;
+}
+
+.sign-in-button {
+  width: 375px;
+  height: 43px;
+  border-radius: 4px;
+  padding: 12px 18px 12px 18px;
+  margin-bottom: 32px;
+  color: white;
+  background-color: #aed6b3;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.last-block p {
+  width: 116px;
+  height: 14px;
+  padding-left: 130px;
+  padding-right: 130px;
+  display: inline;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+
+.last-block p::after {
+  content: " - ";
+}
+
+.last-block p::before {
+  content: " - ";
+}
+.media-buttons {
+  width: 376px;
+  height: 40px;
+  margin-top: 32px;
+  margin-right: 8px;
+  margin-bottom: 44px;
+}
+
+.media-buttons button {
+  height: 40px;
+  width: 120px;
+  background-color: white;
+  border-radius: 40px;
+  border: 1px solid black;
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.media-buttons i {
+  margin: 0 8px;
+}
+
+.last-line {
+  width: 216px;
+  height: 14px;
+  font-size: 12px;
+  padding-left: 80px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+
+.last-a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+
+.image img {
+  height: 600px;
+  width: 598px;
+  margin-top: 212px;
+  margin-right: 92px;
+}
+
+.parent {
+  display: flex;
+}
